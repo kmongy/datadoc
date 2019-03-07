@@ -26,3 +26,6 @@ header h1 {
   text-transform: uppercase;
   font-size: 1.2em;
 }
+.hero-img img {
+  width: 40%;
+}
