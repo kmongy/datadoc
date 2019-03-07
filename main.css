@@ -16,11 +16,13 @@ header h1 {
   color: var(--main-color);
   text-align: center;
 }
-nav ul {
+#navbar ul {
+  background-color: var(--main-color);
+  color: #fff;
   display: flex;
   justify-content: space-around;
   list-style: none;
-  padding: 0;
+  padding: 1em;
   text-transform: uppercase;
   font-size: 1.2em;
 }
