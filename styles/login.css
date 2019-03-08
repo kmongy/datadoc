@@ -1,6 +1,9 @@
 #logo {
   margin: 1em 0;
 }
+#logo a {
+  color: var(--main-color);
+}
 .form-container {
   width: 30%;
   margin: 2em auto 0 auto;
