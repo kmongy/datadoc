@@ -33,6 +33,7 @@ header h1 {
   padding: .5em;
   text-transform: uppercase;
   font-size: 1.2em;
+  margin-bottom: 5em;
 }
 #navbar a {
   color: #fff;
