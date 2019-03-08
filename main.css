@@ -26,6 +26,10 @@ header h1 {
   text-transform: uppercase;
   font-size: 1.2em;
 }
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+}
 .hero-img img {
   width: 40%;
 }
