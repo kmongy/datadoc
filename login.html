@@ -13,12 +13,17 @@
 
   <body>
     <h1 id="logo">DATADOC</h1>
-    <form action="" method="POST">
-      <label for="userid">User Name</label>
-      <input id="userid" type="text" name="userid">
-      <label for="password">Password</label>
-      <input id="password" type="text" name="password">
-      <input id="submit" type="submit" name="submit">
-    </form>
+
+    <div class="form-container">
+      <div class="form-img">
+        <img src="assets/add-user.svg">
+      </div>
+      <p>LOGIN</p>
+      <form id="login-form" action="" method="POST">
+        <input id="userid" type="text" name="userid" placeholder="Username">
+        <input id="password" type="text" name="password" placeholder="Password">
+        <input id="submit" type="submit" name="submit">
+      </form>
+    </div>
   </body>
 </html>
