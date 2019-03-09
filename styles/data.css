@@ -9,3 +9,14 @@
   color: var(--main-color);
   background-color: #fff;
 }
+.dashboard-view-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8em;
+}
+#dashboard-default-personal-img {
+  border: 4px solid var(--main-color);
+  border-radius: 50%;
+  width: 250px;
+}
