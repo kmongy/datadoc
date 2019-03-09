@@ -1,0 +1,11 @@
+.data-nav {
+  background: var(--main-color);
+}
+.data-nav a {
+  color: #fff;
+  padding: 1em;
+}
+.data-nav a:hover {
+  color: var(--main-color);
+  background-color: #fff;
+}
