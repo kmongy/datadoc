@@ -59,7 +59,6 @@ ADD NEW STUDENT
 }
 #data-add .data-add-name {
   display: flex;
-  flex-direction: column;
 }
 #data-add input {
   font-family: 'Open Sans', sans-serif;
