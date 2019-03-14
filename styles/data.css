@@ -10,13 +10,29 @@
   background-color: #fff;
 }
 .dashboard-view-cont {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
   align-items: center;
   margin-top: 8em;
+  padding: .5em;
+}
+.dashboard-info {
+  text-align: center;
+  grid-column: 2 / 3;
+}
+.dashboard-info-personal {
+  margin-top: 2em;
+  font-size: .7em;
 }
 #dashboard-default-personal-img {
   border: 4px solid transparent;
   border-radius: 50%;
   width: 250px;
+}
+.dashboard-navbar {
+  font-size: 2em;
+}
+.dashboard-navbar li {
+  padding: .8em;
 }
