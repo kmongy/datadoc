@@ -37,6 +37,7 @@
   padding: .5em;
 }
 #login-form input:focus {
+  outline: 3px solid;
   outline-color: var(--main-color);
 }
 #login-form #password {
