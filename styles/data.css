@@ -33,6 +33,14 @@
 .dashboard-navbar {
   font-size: 2em;
 }
+.dashboard-navbar a:hover {
+  text-decoration: underline;
+}
 .dashboard-navbar li {
   padding: .8em;
 }
+/*
+====================
+ADD NEW STUDENT
+====================
+*/
