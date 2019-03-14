@@ -12,25 +12,30 @@
   </head>
 
   <body>
-    <h2>Add New Student</h2>
-    <form action="#" method="POST" return=false>
+    <h2 id="data-add-header">Add New Student</h2>
+    <form id="data-add" action="#" method="POST" return=false>
       <fieldset>
-        <label for="firstName">First Name: 
-          <input type="text" name="firstName">
-        </label>
-        <label for="lastName">Last Name: 
-          <input type="text" name="lastName">
-        </label>
-        <label for="middle">M.I. : 
-          <input type="text" name="middle">
-        </label>
+        <div class="data-add-name">
+          <label for="firstName">First Name: 
+            <input type="text" name="firstName">
+          </label>
+          <label for="middle">M.I. : 
+            <input type="text" name="middle">
+          </label>
+          <label for="lastName">Last Name: 
+            <input type="text" name="lastName">
+          </label>
+        </div>
         <label for="idNumber">ID: 
           <input type="text" name="number">
         </label>
-        <select name="gender">
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-        </select>
+        <label for="gender">Gender
+          <select name="gender">
+            <option value=""> </option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </label>
         <label for="ss">SSN: 
           <input type="text" name="ss">
         </label>
@@ -116,7 +121,11 @@
         <label for="zipcode">Zip Code: 
           <input type="text" name="zipcode">
         </label>
+        <label for="addStudent">
+          <input type="submit" name="submit" value="Add Student Info">
+        </label>
       </fieldset>
+      
     </form>
 
   </body>

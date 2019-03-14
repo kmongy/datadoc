@@ -44,3 +44,27 @@
 ADD NEW STUDENT
 ====================
 */
+#data-add-header {
+  font-size: 2.5em;
+  margin: .5em;
+  color: var(--main-color);
+}
+#data-add {
+  font-size: 1.3em;
+  width: 95%;
+  margin: 0 auto;
+}
+#data-add fieldset {
+  padding: 1em;
+}
+#data-add .data-add-name {
+  display: flex;
+  flex-direction: column;
+}
+#data-add input {
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  line-height: 2;
+  margin: .5em;
+}
