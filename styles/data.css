@@ -80,3 +80,7 @@ ADD NEW STUDENT
 #data-add .data-add-name input[name="middle"] {
   width: 3em;
 }
+#data-add .data-add-bio select {
+  border-radius: 5px;
+  height: 2em;
+}
