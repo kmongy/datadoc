@@ -61,6 +61,7 @@ ADD NEW STUDENT
 }
 #data-add input {
   font-family: 'Open Sans', sans-serif;
+  font-size: .8em;
   border-radius: 5px;
   line-height: 2;
   flex-basis: 0;
@@ -74,13 +75,26 @@ ADD NEW STUDENT
   align-items: center;
 }
 #data-add .data-add-name input {
-  font-size: .8em;
   width: 250px;
 }
 #data-add .data-add-name input[name="middle"] {
   width: 3em;
 }
+#data-add .data-add-bio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 #data-add .data-add-bio select {
   border-radius: 5px;
-  height: 2em;
+  height: 3em;
+}
+#data-add .data-add-address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#data-add .data-add-address select {
+  border-radius: 5px;
+  height: 3em;
 }
