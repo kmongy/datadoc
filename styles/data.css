@@ -51,19 +51,32 @@ ADD NEW STUDENT
 }
 #data-add {
   font-size: 1.3em;
-  width: 95%;
+  width: 70%;
   margin: 0 auto;
 }
 #data-add fieldset {
   padding: 1em;
-}
-#data-add .data-add-name {
-  display: flex;
+  border: 4px solid var(--main-color);
+  border-radius: 10px;
 }
 #data-add input {
   font-family: 'Open Sans', sans-serif;
-  border: 1px solid var(--main-color);
   border-radius: 5px;
   line-height: 2;
-  margin: .5em;
+  flex-basis: 0;
+}
+#data-add div {
+  margin: 1em;
+}
+#data-add .data-add-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#data-add .data-add-name input {
+  font-size: .8em;
+  width: 250px;
+}
+#data-add .data-add-name input[name="middle"] {
+  width: 3em;
 }
