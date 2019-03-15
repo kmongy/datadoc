@@ -91,10 +91,30 @@ ADD NEW STUDENT
 }
 #data-add .data-add-address {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+}
+#data-add .data-add-address label {
+  margin-right: 1em;
 }
 #data-add .data-add-address select {
   border-radius: 5px;
   height: 3em;
+}
+#data-add .data-add-address input[name="address"] {
+  width: 350px;
+}
+#data-add .data-add-button {
+  display: flex;
+  justify-content: flex-end;
+}
+#data-add .data-add-button input {
+  border: none;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: .5em;
+}
+#data-add .data-add-button input:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
 }
