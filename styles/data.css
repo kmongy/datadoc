@@ -9,7 +9,7 @@
   color: var(--main-color);
   background-color: #fff;
 }
-.dashboard-view-cont {
+#dashboard-view-cont {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
   justify-items: center;
