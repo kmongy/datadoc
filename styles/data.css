@@ -1,13 +1,16 @@
 .data-nav {
   background: var(--main-color);
 }
+#addStudent,
 .data-nav a {
   color: #fff;
   padding: 1em;
 }
+#addStudent:hover,
 .data-nav a:hover {
   color: var(--main-color);
   background-color: #fff;
+  cursor: pointer;
 }
 #dashboard-view-cont {
   display: grid;
