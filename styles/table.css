@@ -1,0 +1,18 @@
+#studentList {
+  margin: 4em auto;
+  width: 100%;
+  font-size: 1.2em;
+}
+#studentList_info_table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+#studentList_info_table_body th, td {
+  padding: 1em 2.5em;
+}
+#studentList_table_headers th {
+  background: var(--main-color);
+  color: #fff;
+  font-weight: 400;
+}
