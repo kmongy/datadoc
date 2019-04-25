@@ -1,21 +1,11 @@
-// window.onload = function (){
+function addStudent() {
+  let addingStudentHtml = new XMLHttpRequest();
+  addingStudentHtml.onload = function() {
+    if (addingStudentHtml.readyState == 4 && addingStudentHtml.status == 200) {
+      document.getElementById("dashboard-view-cont").innerHTML = this.responseText;
+    }
+  };
 
-//   let http = new XMLHttpRequest();
-
-//   http.onreadystatechange = function() {
-//     if (http.readyState == 4 && http.status == 200) {
-//       viewingInfo(this);
-//     }
-//   };
-//   http.open("GET", "dataAdd.html", true);
-//   http.send();
-// }
-
-// function viewingInfo() {
-//   let dashboardView = document.getElementById("dashboard-view-cont");
-//   let addStudent = document.getElementById("addStudent").addEventListener("click", revealData);
-
-//   function revealData() {
-//     dashboardView.innerHTML = this.responseText;
-//   }
-// }
+  addingStudentHtml.open("GET", "dataAdd.html", true);
+  addingStudentHtml.send();
+}

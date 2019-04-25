@@ -1,11 +1,17 @@
 .data-nav {
   background: var(--main-color);
 }
-.data-nav a {
+.data-nav li {
   color: #fff;
   padding: 1em;
 }
-.data-nav a:hover {
+.active {
+  color: var(--main-color);
+  background-color: #fff;
+  cursor: pointer;
+}
+.data-nav a:hover,
+.data-nav li:hover {
   color: var(--main-color);
   background-color: #fff;
   cursor: pointer;
@@ -45,16 +51,10 @@
 ADD NEW STUDENT
 ====================
 */
-#data-add-header {
-  font-size: 2.5em;
-  margin-top: 2em;
-  color: var(--main-color);
-  text-align: center;
-}
 #data-add {
   font-size: 1.3em;
-  width: 70%;
   margin: 0 auto;
+  grid-column: 2 / 4;
 }
 #data-add fieldset {
   padding: 1em;
