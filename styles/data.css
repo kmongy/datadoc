@@ -53,13 +53,18 @@ ADD NEW STUDENT
 */
 #data-add {
   font-size: 1.3em;
-  margin: 0 auto;
-  grid-column: 2 / 4;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: .5em;
+  margin-top: 4em;
 }
 #data-add fieldset {
   padding: 1em;
   border: 4px solid var(--main-color);
   border-radius: 10px;
+  grid-column: 2 / 4;
 }
 #data-add input {
   font-family: 'Open Sans', sans-serif;
