@@ -134,4 +134,20 @@ STUDENT PROFILE
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 4em 0;
+}
+#studentProfile_img {
+  width: 20em;
+}
+.studentProfile_picture{
+  text-align: center;
+}
+.studentProfile_info {
+  font-size: .8em;
+}
+.studentProfile_info #studentProfile_name {
+  font-weight: 800;
+}
+.studentProfile_info p {
+  margin: .5em;
 }
