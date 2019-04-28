@@ -147,7 +147,16 @@ STUDENT PROFILE
 }
 .studentProfile_info #studentProfile_name {
   font-weight: 800;
+  padding: .5em;
+  border-bottom: 3px solid var(--main-color);
 }
 .studentProfile_info p {
   margin: .5em;
+}
+.studentProfile_address {
+  margin-top: 3em;
+}
+.bolding {
+  font-weight: 700;
+  font-size: .75em;
 }
