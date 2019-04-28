@@ -12,6 +12,7 @@
 #studentList_info_table_body th, td {
   padding: 1em 2.5em;
   border-bottom: 1px solid lightgrey;
+  text-align: center;
 }
 #studentList_info_table_body tr:hover {
   background-color: var(--main-color);
