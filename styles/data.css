@@ -162,3 +162,18 @@ STUDENT PROFILE
   font-weight: 700;
   font-size: .75em;
 }
+.studentProfile_reports_btnRow button {
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  background-color: var(--main-color);
+  color: white;
+  font-family: inherit;
+  font-size: 1.2em;
+  padding: 1em;
+  margin: 1em;
+}
+.studentProfile_reports_btnRow button:hover {
+  background-color: #fff;
+  color: var(--main-color);
+  cursor: pointer;
+}
