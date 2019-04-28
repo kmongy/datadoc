@@ -125,3 +125,13 @@ ADD NEW STUDENT
   background-color: var(--secondary-color);
   cursor: pointer;
 }
+/*
+===========================
+STUDENT PROFILE
+===========================
+*/
+.studentProfile_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
